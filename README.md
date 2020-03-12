@@ -1,12 +1,12 @@
 # MomentonChallenge
-Momenton Code Challenge - solution of Ray Wang
+Momenton Code Challenge - solution by Ray Wang
 
 # Assumptions
 1. The popularity of a genre is defined by the average rating of any rating records available regarding any movie classified as this genre
 2. Different combinations of sub-genres are considered as different genres - e.g. Action|Short, Action, Short are considered as 3 different genres
 3. For a genre to be eligible for this "popularity contest", movies of this genre have to be rated frequently. As a result, in the final answer, only the genres ranking top 10 in rating frequency each year were included. Without this rule, niche market movies with only one crazy fan giving a 10/10 would often stand out. 
 
-# Solutions implemented:
+# Solutions implemented
 1. Pipeline for raw .dat -> BigQuery: used timestamp.py to handle timestamps in ratings.dat, mainly for extracting the "year" of ratings. I also used Cloud Dataprep to generate Cloud DataFlow jobs for ETL.
 2. Load the output files of 1 from GCS output location into BigQuery as 3 tables
 3. Query the 3 tables with query.sql to generate results for each year between 2013-2019

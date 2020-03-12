@@ -1,0 +1,11 @@
+genres,average_rating,count_movies
+Drama,7.75865800865804,7392
+Drama|Romance,7.643939393939394,4224
+Crime|Drama,7.641836734693893,3920
+Action|Adventure|Sci-Fi|Thriller,7.618031430934645,6045
+Comedy|Drama|Romance,7.16354300385108,3895
+Crime|Drama|Thriller,7.144286905754796,3597
+Comedy|Drama,7.131676361713367,3782
+Action|Crime|Thriller,7.086662371134013,3104
+Action|Adventure|Sci-Fi,6.982803916885594,4187
+Comedy,6.615185504745474,4636
